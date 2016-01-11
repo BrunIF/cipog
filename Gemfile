@@ -32,7 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 
 group :production, :staging do
-  gem 'pg'
+  # gem 'pg'
 end
 
 # Use Capistrano for deployment
@@ -40,7 +40,6 @@ end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'sqlite3'
   gem 'byebug'
 end
 
